@@ -25,7 +25,7 @@ Rickshaww is a user-friendly ride-hailing application designed to connect driver
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rickshaww.git
+   git clone https://github.com/manoranjan14/Rickshaww.git
    ```
 2. Open the project in Android Studio.
 3. Install the necessary dependencies and SDKs.

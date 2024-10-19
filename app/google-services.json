@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909710784286",
+    "project_id": "rikshaw-7dda9",
+    "storage_bucket": "rikshaw-7dda9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909710784286:android:1f7846d273b37ac6cdfb0f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjscWt7dXzgLHH7Bty39TK98uVisk13L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

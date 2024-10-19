@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <!-- Outer circle path (location pin) -->
+    <path
+        android:fillColor="#FF0000"
+    android:pathData="M28,4C19.5,4 10,10.25 10,18c0,10.5 14,26 14,26s14,-15.5 14,-26c0,-7.75 -7.5,-14 -14,-14zM28,20.5c-2.75,0 -5,-2.25 -5,-5s2.25,-5 5,-5 5,2.25 5,5 -2.25,5 -5,5z"/>
+
+    <!-- Inner circle as a path -->
+    <path
+        android:fillColor="#FFFFFF"
+    android:pathData="M28,14c2.75,0 5,2.25 5,5s-2.25,5 -5,5 -5,-2.25 -5,-5 2.25,-5 5,-5z"/>
+</vector>

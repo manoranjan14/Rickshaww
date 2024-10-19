@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/user_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="For Users"
+        android:textSize="24sp"
+        android:background="@drawable/button_background_user"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/driver_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="For Drivers"
+        android:textSize="24sp"
+        android:background="@drawable/button_background_driver"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:elevation="8dp" />
+
+</LinearLayout>

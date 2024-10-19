@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/current_location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/current_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fetching Current Location..."
+        android:focusable="false"
+        android:inputType="none"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/drop_location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drop-off Location:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/drop_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fetching Drop-off Location..."
+        android:focusable="false"
+        android:inputType="none"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Add Progress Bar for Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" /> <!-- Hidden initially -->
+
+    <Button
+        android:id="@+id/confirm_ride_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Ride"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/colorPrimary"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

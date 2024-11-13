@@ -15,7 +15,7 @@ Rickshaww is a user-friendly ride-hailing application designed to connect driver
 
 | Technology          | Description                                           |
 |---------------------|-------------------------------------------------------|
-| Android Development  | Kotlin                                                |
+| Android Development  | Java                                                |
 | Backend              | Firebase Authentication, Database                     |
 | Mapping              | OSMDroid                                             |
 | Design               | XML for layouts, Material Design components           |
